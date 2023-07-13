@@ -1,0 +1,30 @@
+{
+  "name": "got-nodejs-hw01-cli",
+  "version": "1.0.0",
+  "description": "got-nodejs-hw01-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaiiaHa/got-nodejs-hw01-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaiiaHa/got-nodejs-hw01-cli/issues"
+  },
+  "homepage": "https://github.com/MaiiaHa/got-nodejs-hw01-cli#readme",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "nanoid": "3.3.4",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
